@@ -1,0 +1,67 @@
+/*
+ * Globals
+ */
+
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+.home {
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+
+    background-image: url("https://images.unsplash.com/photo-1612626360035-324ebf7d27f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1083&q=80");
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.about {
+    background: rgb(255,102,0);
+    background: linear-gradient(90deg, rgba(255,102,0,1) 0%, rgba(255,0,0,1) 50%, rgba(255,102,0,1) 100%);
+}
+
+.events {
+    background: rgb(168,185,2);
+    background: linear-gradient(90deg, rgba(168,185,2,1) 20%, rgba(16,156,0,1) 50%, rgba(168,185,2,1) 80%);
+}
+
+.cover-container {
+  max-width: 42em;
+
+}
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
